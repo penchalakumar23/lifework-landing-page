@@ -12,7 +12,7 @@ const path = [
   { name: "Explorers", path: "/explorers" },
   { name: "Organizations", path: "/organizations" },
   { name: "About Us", path: "/about-us" },
-  { name: "Join Now", path: "/join-now" },
+  { name: "Join Now", path: "https://discoverlifeworkme.b2clogin.com/discoverlifeworkme.onmicrosoft.com/oauth2/v2.0/authorize?p=B2C_1_Email_SigninSignup&client_id=e24ac0a2-1a37-49ad-8d2b-76eb64d34cf6&nonce=defaultNonce&redirect_uri=https%3A%2F%2Fjwt.ms&scope=openid&response_type=id_token&prompt=login" },
 ];
 
 export default function Header() {
