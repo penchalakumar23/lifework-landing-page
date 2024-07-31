@@ -7,10 +7,10 @@ import { BiBarChart } from "react-icons/bi";
 function KeyFeatures() {
   return (
     <div className="md:px-28">
-      <h2 className=" font-mono font-extrabold mb-4 text-center text-2xl">
+      <h2 className=" font-montserrat font-extrabold mb-4 text-center text-2xl">
         Key Features
       </h2>
-      <p className="py-4 px-2 mx-4 text-justify">
+      <p className="py-4 px-2 mx-4 text-justify font-open_sans">
         When you focus on a growth mindset, the opportunities come to you.
         Access real time feedback, review and adjust personal goals and engage
         in an environment that is entirely focused on you.
@@ -27,7 +27,7 @@ function KeyFeatures() {
         />
 
         <FeatureCard
-         logo={<BiBarChart color="#003a56" size={40} />}
+          logo={<BiBarChart color="#003a56" size={40} />}
           text={
             "Explore options that are driven directly from your engagement. Your platform, your data, your path- a GPS for your life."
           }

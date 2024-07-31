@@ -47,10 +47,10 @@ function WhyChooseUs() {
 
   return (
     <div className="md:px-28">
-      <h2 className="font-bold text-2xl text-center capitalize font-mono py-6 px-4 mx-4">
+      <h2 className="font-bold text-2xl text-center capitalize font-montserrat py-6 px-4 mx-4">
         Why choose us?
       </h2>
-      <p className="py-6 px-4 pt-0 text-justify">
+      <p className="py-6 px-4 pt-0 text-justify font-open_sans">
         We enable every individual with the power to search inside themselves to
         truly understand their purpose.
       </p>
@@ -82,7 +82,3 @@ function WhyChooseUs() {
 }
 
 export default WhyChooseUs;
-
-
-
-

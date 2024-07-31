@@ -1,14 +1,20 @@
+const { Montserrat, Open_Sans } = require("next/font/google");
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   darkMode: ["class"],
   content: [
-    './pages/**/*.{js,jsx}',
-    './components/**/*.{js,jsx}',
-    './app/**/*.{js,jsx}',
-    './src/**/*.{js,jsx}',
+    "./pages/**/*.{js,jsx}",
+    "./components/**/*.{js,jsx}",
+    "./app/**/*.{js,jsx}",
+    "./src/**/*.{js,jsx}",
   ],
   prefix: "",
   theme: {
+    fontFamily: {
+      montserrat: ["var(--font-montserrat)", "sans-serif"],
+      open_sans: ["var(--font-open_san)", "sans-serif"],
+    },
     container: {
       center: true,
       padding: "2rem",
@@ -34,4 +40,4 @@ module.exports = {
     },
   },
   plugins: [require("tailwindcss-animate")],
-}
+};

@@ -59,7 +59,7 @@ export default function Header() {
                 onClick={() => setToggleNav(false)}
                 href={nav.path}
                 key={Math.random() + crypto.randomUUID()}
-                className={`${pathName == nav.path ? "font-bold" : ""}`}>
+                className={`${pathName == nav.path ? "font-bold font-montserrat " : ""}`}>
                 <li
                   className={`hover:underline pt-8 cursor-pointer list-none `}>
                   {nav.name}
@@ -91,10 +91,10 @@ export default function Header() {
                   pathName == url.path ? "font-bold text-[#003a56] " : ""
                 }`}>
                 <li
-                  className={` cursor-pointer list-none hover:border-b-2  ${
+                  className={` cursor-pointer list-none hover:border-b-2  font-montserrat  ${
                     url.name === "Login" || url.name === "Join Now"
                       ? "bg-[#003a56] py-2 px-6 rounded-md text-white"
-                      : null
+                      : ''
                   }`}>
                   {url.name}
                 </li>

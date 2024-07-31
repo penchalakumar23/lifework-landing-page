@@ -26,8 +26,10 @@ function Partners_Advisor() {
 
   return (
     <div className="flex justify-center w-full flex-col items-center md:px-28">
-      <h3 className="font-bold font-mono mt-8 text-2xl">OUR PARTNERS & ADVISORS</h3>
-      <p className="py-4 px-4 text-justify">
+      <h3 className="font-bold font-montserrat mt-8 text-2xl">
+        OUR PARTNERS & ADVISORS
+      </h3>
+      <p className="py-4 px-4 text-justify font-open_sans">
         We can't do this on our own. This is a massive undertaking, but it has
         to start somewhere. Our partners below have begun the journey with us.
         We are always looking for other like-minded individuals and

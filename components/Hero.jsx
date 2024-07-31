@@ -28,7 +28,7 @@ function Hero() {
       <div className="md:flex md:items-center">
         <motion.h1
           ref={ref}
-          className="text-3xl text-center py-8 pb-0 px-4 font-bold md:text-6xl md:px-4 md:w-full"
+          className="text-3xl text-center py-8 pb-0 px-4 font-montserrat font-black md:text-6xl md:px-4 md:w-full"
           initial="hidden"
           animate={controls}
           variants={variants}>
@@ -36,7 +36,7 @@ function Hero() {
           <span className="text-xl md:text-3xl block md:mt-4">
             Because your life’s purpose is not a job.
           </span>
-          <p className=" text-base text-justify font-normal md:mt-6 py-6">
+          <p className=" font-open_sans text-base text-justify font-normal md:mt-6 py-6">
             Ikigai- a Japanese term combining “iki” or Life and “gai” or
             meaning, starts with Life for a reason. Who you are- your character,
             personality and passions- drive your ability to be authentic. We

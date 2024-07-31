@@ -126,12 +126,12 @@ export default function Our_Team() {
       dept: " AI/ML and Privacy",
       avatar: "/Avatar/Tino.png",
     },
-    {
-      name: "Zhi Jun Liang ",
-      position: "Apprentice",
-      dept: " UI/UX & Frontend",
-      avatar: "/Avatar/Zhi.png",
-    },
+    // {
+    //   name: "Zhi Jun Liang ",
+    //   position: "Apprentice",
+    //   dept: " UI/UX & Frontend",
+    //   avatar: "/Avatar/Zhi.png",
+    // },
     {
       name: "Yaajyansh B.",
       position: "Intern",
@@ -166,25 +166,33 @@ export default function Our_Team() {
 
   return (
     <div className="border-b-2 mb-12 pb-6 md:px-28">
-      <h3 className="mt-12 mb-3 font-mono font-extrabold text-2xl text-center">Meet our Team!</h3>
+      <h3 className="mt-12 mb-3 font-montserrat font-extrabold text-2xl text-center">
+        Meet our Team!
+      </h3>
 
-      <p className="text-justify px-4 mb-4">
+      <p className="text-justify px-4 mb-4 font-open_sans">
         Our growing team includes professionals from all industries and
         backgrounds. We all came together to help solve a growing problem before
         it gets out of control.
       </p>
 
-      <div className="grid grid-cols-2 place-content-center gap-6 px-4"> 
+      <div className="grid grid-cols-2 place-content-center gap-6 px-4">
         {profiles.map(({ name, dept, position, avatar }) => (
           <div className=" text-nowrap text-[0.8em] flex justify-center py-3 items-center rounded-md flex-col shadow">
             {!avatar ? (
               <FaUser color="#003a56" size={80} className="rounded-full" />
             ) : (
-              <Image src={avatar} width={100} height={100} alt="avatar" className="h-auto w-auto" />
+              <Image
+                src={avatar}
+                width={100}
+                height={100}
+                alt="avatar"
+                className="h-auto w-auto"
+              />
             )}
-            <h4 className="font-bold font-mono pt-3">{name}</h4>
-            <p className="py-2">{dept}</p>
-            <p>{position}</p>
+            <h4 className="font-bold font-montserrat pt-3">{name}</h4>
+            <p className="py-2 font-open_sans">{dept}</p>
+            <p className="font-open_sans">{position}</p>
           </div>
         ))}
       </div>

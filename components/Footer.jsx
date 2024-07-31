@@ -79,15 +79,15 @@ function Footer() {
             />
           </Link>
         </div>
-        <p className="text-center mb-4 ">© 2024 LifeWork</p>
+        <p className="text-center mb-4 font-open_sans">© 2024 LifeWork</p>
       </div>
       <div className="flex mb-4 text-sm text-center justify-between  mx-12 md:mx-0 md:w-2/3 mt-6">
         {links.map((category, index) => (
           <div key={index} className="flex flex-col px-3">
-            <h4 className="font-bold text-xl">{category.category}</h4>
+            <h4 className="font-bold text-xl font-montserrat">{category.category}</h4>
             {category.items.map((item, idx) => (
               <Link key={idx} href={item.path} className="cursor-pointer ">
-                <p className="hover:underline text-[12px] text-nowrap ">{item.name}</p>
+                <p className="hover:underline text-[12px] text-nowrap font-open_sans ">{item.name}</p>
               </Link>
             ))}
           </div>

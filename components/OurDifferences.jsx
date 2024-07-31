@@ -46,10 +46,10 @@ function OurDifferences() {
   return (
     <div>
       <div>
-        <h2 className="font-bold text-2xl text-center my-3 font-mono">
+        <h2 className="font-bold text-2xl text-center my-3 font-montserrat">
           Our Difference.
         </h2>
-        <p className="text-justify px-4">
+        <p className="text-justify px-4 font-open_sans">
           In our system, organizations are competing for you, not the other way
           around. We are going to fix this market disparity.
         </p>
@@ -64,7 +64,7 @@ function OurDifferences() {
             animate={controls}
             ref={ref}>
             <motion.p
-              className={` pb-2 ${item.title.includes("Million") ? "" : ""}`}
+              className={` font-open_sans pb-2 ${item.title.includes("Million") ? "" : ""}`}
               animate={{
                 transition: { duration: 0.6 },
               }}>

@@ -8,8 +8,8 @@ function FeatureCard({ imgSrc, logo, header, text }) {
       {imgSrc ? (
         <Image src={imgSrc} alt="image" width={30} height={30} />
       ) : null}
-      <h3 className="font-bold py-3">{header}</h3>
-      <p className="text-justify px-4">{text}</p>
+      <h3 className="font-bold py-3 font-Montserrat">{header}</h3>
+      <p className="text-justify px-4 font-open_sans">{text}</p>
     </div>
   );
 }
