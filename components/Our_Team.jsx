@@ -74,7 +74,7 @@ export default function Our_Team() {
       name: "George LaMadrid",
       position: "DevOps Lead",
       dept: " Platform Developmentt",
-      avatar: "",
+      avatar: "/Avatar/George.png",
     },
     {
       name: "[Open]",
@@ -178,7 +178,7 @@ export default function Our_Team() {
 
       <div className="grid grid-cols-2 place-content-center gap-6 px-4">
         {profiles.map(({ name, dept, position, avatar }) => (
-          <div className=" text-nowrap text-[0.8em] flex justify-center py-3 items-center rounded-md flex-col shadow">
+          <div className=" text-nowrap text-[0.8em] flex justify-center py-3 items-center rounded-md flex-col shadow" key={name+dept+position+Math.random()}>
             {!avatar ? (
               <FaUser color="#003a56" size={80} className="rounded-full" />
             ) : (
@@ -187,7 +187,7 @@ export default function Our_Team() {
                 width={100}
                 height={100}
                 alt="avatar"
-                className="h-auto w-auto"
+                className="h-[128px] w-[128px] rounded-full"
               />
             )}
             <h4 className="font-bold font-montserrat pt-3">{name}</h4>
