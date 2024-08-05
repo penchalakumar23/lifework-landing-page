@@ -6,7 +6,6 @@ import OurDifferences from "@/components/OurDifferences";
 import Partners_Advisor from "@/components/Partners_Advisor";
 import WhyChooseUs from "@/components/WhyChooseUs";
 
-
 export default function Home() {
   return (
     <main className="flex flex-col items-center justify-between ">
@@ -14,9 +13,7 @@ export default function Home() {
       <WhyChooseUs />
       <OurDifferences />
       <KeyFeatures />
-      {/* <Partners_Advisor /> */}
       <Our_Team />
-     
     </main>
   );
 }
