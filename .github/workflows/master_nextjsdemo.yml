@@ -59,4 +59,4 @@ jobs:
           app-name: 'nextjsdemo'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_DAF687D845BE4C88AA9BAF7ABCEFA2EE }}
+         
