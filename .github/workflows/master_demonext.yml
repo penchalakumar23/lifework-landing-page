@@ -59,4 +59,4 @@ jobs:
           app-name: 'demonext'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D15B5D229B27435FBB21BBF45C7ECE65 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C739971300524EEDBCED7C0501801AB8 }}
